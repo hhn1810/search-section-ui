@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Merriweather:wght@900&display=swap');
+html {
+box-sizing: border-box;
+font-size: 62.5%;
+}
+*{
+margin: 0;
+padding: 0;
+}
+*,*:before,*:after {
+box-sizing: border-box;
+}
+input,
+textarea,
+select,
+button{
+outline: none;
+}
+input{
+line-height: normal;
+}
+label,
+button{
+cursor: pointer;
+}
+a {
+text-decoration: none;
+}
+img {
+display: block;
+max-width: 100%;
+}
+body{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  min-height: 100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  background-color: #89A3D9;
+  line-height: 1.3;
+}
+.search-section {
+  padding: 10rem;
+  background-color: #ffffff;
+  border-radius: 2rem;
+}
+.search-section h2{
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 900;
+  font-size: 4.6rem;
+  line-height: 1.3;
+  color: #151A46;
+  max-width: 70rem;
+  margin-bottom: 2.5rem;
+}
+.search-section h4{
+  font-size: 2.4rem;
+  max-width: 60rem;
+  margin-bottom: 5rem;
+}
+.search-section form{
+  display: flex;
+  align-items: center;
+  column-gap: 1.4rem;
+  margin-bottom: 6rem;
+}
+.search-section input {
+  font-size: 2.4rem;
+  min-width: 55rem;
+  padding: 2.5rem 3rem;
+  color: #000000;
+  background-color: #FAFAFF;
+  border: 1px solid #B3B8D8;
+}
+.search-section input::placeholder{
+  color: #000000;
+  opacity: .5;
+  font-size: 2.4rem;
+}
+.search-section .btn-search{
+  color: #ffffff  ;
+  padding: 2.5rem;
+  font-size: 2.4rem;
+  border: 1px solid #151A46;
+  background-color: #151A46;
+  outline: none;
+  display: flex;
+  align-items: center;
+  width: 18rem;
+  transition: .5s;
+  cursor: pointer;
+}
+.search-section .btn-search:hover{
+  opacity: .9;
+}
+.search-section .btn-search ion-icon{
+  margin-right: 1.5rem;
+}
+.tag-container h5 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+.tag-content{
+  display: inline-flex;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+}
+.tag{
+  display: inline-block;
+  padding: 2rem 3rem;
+  border-radius: 5px;
+  min-width: 10rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.tag.tag--1{
+  background-color: #FFEDF3;
+  color: #D0678A;
+}
+.tag.tag--2{
+  background-color: #F4EDFF;
+  color: #805BBC;
+}
+.tag.tag--3{
+  background-color: #DFF4D7;
+  color: #51933E;
+}
+.tag.tag--4{
+  background-color: #FFECDA;
+  color: #E27F23;
+}
